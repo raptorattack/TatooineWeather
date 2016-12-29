@@ -6,7 +6,7 @@ Created on Thu Dec 29 12:29:46 2016
 @author: emilygomez
 """
 
-###             Tatooine Weather Rev. 1             ###
+###             Tatooine Weather Rev. 1.2           ###
 ###                                                 ###
 ###     Created by: Adam and Emily Brockmeier       ###
 ###                                                 ###
