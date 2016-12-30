@@ -26,8 +26,6 @@ from time import strftime
 
 
 
-DATE = time.strftime("%m/%d/%Y, %-I:%M%p")
-
 #WEATHER STUFF
 url = 'http://api.wunderground.com/api/YourWundergroundKeyHere/conditions/q/AU/Alice_Springs.json'
 #TWITTER STUFF
@@ -52,6 +50,7 @@ while True:
 
     
 #PRINT TIME STAMP
+    DATE = time.strftime("%m/%d/%Y, %-I:%M%p")
     print("%s" % DATE)
 
 #UPLOAD TO TWITTER
