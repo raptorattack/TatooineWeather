@@ -43,6 +43,9 @@ while True:
     wind_mph = parsed_json['current_observation']['wind_mph']
     relative_humidity = parsed_json['current_observation']['relative_humidity']
 
+#PULL CURRENT TIME TO PRINT TO CONSOLE     
+    DATE = time.strftime("%m/%d/%Y, %-I:%M%p")
+
 #CHANGE THE VALUES TO TATOOINE VALUES
     temp_tat = temp_f*1.8
     wind_tat = wind_mph*13.84
@@ -50,7 +53,6 @@ while True:
 
     
 #PRINT TIME STAMP
-    DATE = time.strftime("%m/%d/%Y, %-I:%M%p")
     print("%s" % DATE)
 
 #UPLOAD TO TWITTER
