@@ -54,5 +54,5 @@ while True:
     print("%s" % DATE)
 
 #UPLOAD TO TWITTER
-    twitter.update_status(status="Current Temp: %.6s F\nWindspeed: %s mph\nHumidity: %s%c"%(temp_tat,wind_tat,hum_tat,37))
+    twitter.update_status(status="Current Temp: %.6s F\nWindspeed: %.4s mph\nHumidity: %s%c"%(temp_tat,wind_tat,hum_tat,37))
     time.sleep(7200)
